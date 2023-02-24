@@ -1,0 +1,78 @@
+﻿@model WebApplicationASP.Models.Movie
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+@*<link rel="stylesheet" href="~/css/HomeDetails.css">*@
+
+<h2>Details</h2>
+
+<div>
+    <h4>Movie</h4>
+    <div>
+        <a asp-action="Index">Back to home page</a>
+    </div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @*@Html.DisplayNameFor(model => model.MovieName)*@
+            Movie name
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MovieName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @*@Html.DisplayNameFor(model => model.ImageFile)*@
+            Image
+        </dt>
+        <dd class="col-sm-10">
+            <img src="~/@Model.ImageFile" width="150" />
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+        <h3>
+            comments
+        </h3>
+        <div>
+            Please leave a comment (The text must be at least 4 characters)
+        </div>
+        <div>
+            <form asp-action="CommentAdd" method="post">
+                <input name="CommentId" value="0" hidden />
+                <input name="MovieId" value="@Model.MovieId" hidden />
+                <input name="CommentText" value="" type="text" data-val="true" data-val-minlength="Comment text must be at least 3 characters" data-val-minlength-min="3" />
+                <button type="submit"> Add comment</button>
+            </form>
+        </div>
+        <ul>
+            @foreach (var comment in Model.Comments!)
+        {
+            <li>
+                @comment.CommentText
+            </li>
+        }
+        </ul>
+    </dl>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

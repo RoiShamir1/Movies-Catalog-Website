@@ -1,0 +1,14 @@
+﻿$highlight: #00FFFF;
+
+div {
+    font-size: 12px;
+
+    .my_big {
+        font-size: 18px;
+        background-color: $highlight;
+    }
+
+    .my_small{
+        font-size: 10px;
+    }
+}

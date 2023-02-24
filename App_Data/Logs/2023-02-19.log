@@ -1,0 +1,227 @@
+[2023-02-19 09:07:35.7505]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 09:07:42.2221]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 09:07:42.2387]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 09:07:42.2387]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 09:07:42.2387]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 09:31:20.9304]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 09:31:25.1076]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 09:31:25.1145]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 09:31:25.1145]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 09:31:25.1145]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 09:33:54.7199]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 09:33:57.0604]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 09:33:57.0696]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 09:33:57.0696]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 09:33:57.0696]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 09:37:03.5558]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 09:37:05.6328]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 09:37:05.6328]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 09:37:05.6328]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 09:37:05.6328]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 09:42:06.0660]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 09:42:08.2367]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 09:42:08.2367]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 09:42:08.2367]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 09:42:08.2367]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 09:42:37.8589]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 09:42:39.9827]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 09:42:39.9912]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 09:42:39.9912]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 09:42:39.9912]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 09:43:00.4531]|Roi Shamir|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebApplicationASP.Controllers.AdminController.Edit(Movie movie, IFormFile pictureFile) in C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP\Controllers\AdminController.cs:line 101
+   at lambda_method287(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-02-19 09:59:01.5809]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 09:59:05.5112]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 09:59:05.5178]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 09:59:05.5178]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 09:59:05.5178]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 09:59:13.4473]|Roi Shamir|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebApplicationASP.Controllers.AdminController.Edit(Movie movie, IFormFile pictureFile) in C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP\Controllers\AdminController.cs:line 101
+   at lambda_method225(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-02-19 10:01:47.2052]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:01:49.4253]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:01:49.4253]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:01:49.4253]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:01:49.4253]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:02:39.5228]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:02:41.6966]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:02:41.7038]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:02:41.7038]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:02:41.7038]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:03:12.1948]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:03:14.5766]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:03:14.5834]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:03:14.5834]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:03:14.5834]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:08:58.7821]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:09:01.0228]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:09:01.0228]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:09:01.0228]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:09:01.0228]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:10:26.5905]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:10:28.7193]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:10:28.7193]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:10:28.7193]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:10:28.7193]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:12:08.9639]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:12:11.1042]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:12:11.1106]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:12:11.1106]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:12:11.1106]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:15:07.7203]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:15:09.5949]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:15:09.5949]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:15:09.5949]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:15:09.5949]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:17:14.5383]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:17:16.5578]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:17:16.5648]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:17:16.5648]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:17:16.5648]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:22:01.7297]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:22:03.7664]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:22:03.7664]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:22:03.7664]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:22:03.7664]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:23:40.6475]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:23:45.1700]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:23:45.1884]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:23:45.1884]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:23:45.1884]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:34:09.4695]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:34:11.3801]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:34:11.3801]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:34:11.3801]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:34:11.3801]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:35:06.2917]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:35:08.2899]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:35:08.2971]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:35:08.2971]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:35:08.2971]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:40:16.3337]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:40:18.2649]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:40:18.2649]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:40:18.2649]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:40:18.2649]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:40:34.3615]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:40:36.3057]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:40:36.3121]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:40:36.3121]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:40:36.3121]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:41:31.2279]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:41:33.2972]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:41:33.2972]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:41:33.2972]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:41:33.2972]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:42:06.7336]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:42:08.8039]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:42:08.8039]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:42:08.8039]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:42:08.8039]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:43:23.3134]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:43:26.7108]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:43:26.7198]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:43:26.7198]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:43:26.7198]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:45:00.1601]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:45:03.9071]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:45:03.9071]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:45:03.9071]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:45:03.9071]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:48:20.0588]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:48:22.0480]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:48:22.0480]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:48:22.0480]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:48:22.0480]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:48:34.7353]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:48:38.3905]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:48:38.3905]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:48:38.3905]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:48:38.3905]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:49:00.0327]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:49:03.7820]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:49:03.7820]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:49:03.7820]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:49:03.7820]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 10:57:40.5107]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 10:57:42.5294]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 10:57:42.5363]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 10:57:42.5363]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 10:57:42.5363]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 11:06:48.1357]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 11:06:50.1728]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 11:06:50.1728]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 11:06:50.1728]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 11:06:50.1728]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 11:08:28.2097]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 11:08:30.2541]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 11:08:30.2675]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 11:08:30.2675]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 11:08:30.2675]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 11:08:51.4235]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 11:08:53.4471]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 11:08:53.4542]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 11:08:53.4542]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 11:08:53.4542]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 11:09:48.2856]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 11:09:50.3627]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 11:09:50.3627]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 11:09:50.3627]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 11:09:50.3627]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 11:11:51.0403]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 11:11:53.2847]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 11:11:53.2847]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 11:11:53.2847]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 11:11:53.2847]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 11:12:22.4649]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 11:12:24.7826]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 11:12:24.7826]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 11:12:24.7826]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 11:12:24.7826]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 15:50:11.9900]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 15:50:16.8036]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 15:50:16.8036]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 15:50:16.8036]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 15:50:16.8036]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 
+[2023-02-19 16:24:40.1723]|Roi Shamir|DEBUG|Program|init main 
+[2023-02-19 16:24:43.1203]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5190 
+[2023-02-19 16:24:43.1278]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+[2023-02-19 16:24:43.1278]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+[2023-02-19 16:24:43.1278]|Roi Shamir|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Roi Shamir\Desktop\WebApplicationASP\WebApplicationASP 

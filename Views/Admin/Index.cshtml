@@ -1,0 +1,65 @@
+﻿@model Task<List<WebApplicationASP.Models.Movie>>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Admin</h1>
+
+<p>
+    <a asp-action="CreateMovie">Create New Movie</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Movie name
+                @*@Html.DisplayNameFor(model => model.MovieName)*@
+            </th>
+            <th>
+                Year
+                @*@Html.DisplayNameFor(model => model.Year)*@
+            </th>
+            <th>
+                Description
+                @*@Html.DisplayNameFor(model => model.Description)*@
+            </th>
+            <th>
+                Image
+                @*@Html.DisplayNameFor(model => model.ImageFile)*@
+            </th>
+            <th>
+                Category
+                @*@Html.DisplayNameFor(model => model.Category)*@
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in await Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @*@Html.DisplayFor(modelItem => item.ImageFile)*@
+                <img src="@item.ImageFile" width="150"/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category!.CategoryName)
+            </td>
+            <td>
+                <a asp-action="EditMovie" asp-route-id="@item.MovieId">Edit movie</a> |
+                @*<a asp-action="Details" asp-route-id="@item.MovieId">Details</a> |*@
+                <a asp-action="DeleteMovie" asp-route-id="@item.MovieId">Delete movie</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
